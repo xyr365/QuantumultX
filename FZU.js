@@ -23,5 +23,5 @@ hostname = vip1.kuwo.cn
 
 var body = $response.body;
 var obj = JSON.parse(body);
-obj.data["isHealthy"]=true
+obj.data.isHealthy=true
 
